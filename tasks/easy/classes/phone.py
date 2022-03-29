@@ -17,3 +17,12 @@
 Модель: {}
 Год выпуска: {}
 """
+
+
+class Phone:
+    brand = 'бренд'
+    model = 'модель'
+    issue_year = 'год выпуска'
+
+
+def __init__(self, brand, model, issue_year):

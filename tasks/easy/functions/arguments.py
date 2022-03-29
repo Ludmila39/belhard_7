@@ -18,3 +18,5 @@ https://pyneng.readthedocs.io/ru/latest/book/10_useful_functions/all_any.html
     "kwargs_max_len": 7
 }
 """
+def dict_from_args (*args, **kwargs):
+

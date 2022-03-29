@@ -10,3 +10,7 @@ next(factorial_gen) -> 2
 next(factorial_gen) -> 6
 next(factorial_gen) -> 24
 """
+def factorial(num=None):
+    if num in factorial:
+
+        yield num!=  1 * 2 * 3 * ... * num
