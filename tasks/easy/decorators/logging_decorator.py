@@ -14,9 +14,9 @@ def log_decorator(func):
         print("Выполняем {func.__name__} с args: {args} и kwargs: {kwargs}")
         result = func(*args, **kwargs)
         print("Выполнено {func.__name__}")
-        return (result)
+        return result
 
-    return (wrapper)
+    return wrapper
 
 
 @log_decorator
