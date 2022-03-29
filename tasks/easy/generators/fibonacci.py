@@ -22,5 +22,5 @@ def fibonacci():
 
 
 fibonacci_gen = fibonacci()
-for i in range(10):
+for i in range(8):
     print(next(fibonacci_gen))
