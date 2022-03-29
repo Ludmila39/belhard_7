@@ -26,3 +26,18 @@ class Phone:
 
 
 def __init__(self, brand, model, issue_year):
+    self.brand = brand
+    self.model = model
+    self.issue_year = issue_year
+
+
+def __receive_call__(self, name):
+    return f"звонит {name}"
+
+
+def __get_info__(self, brand, model, issue_year):
+    return brand, model, issue_year
+
+
+def __str__(self, brand, model, issue_year):
+    print(f'"Бренд": {brand}, "Модель": {model}, "Год выпуска": {issue_year}'.format(self.brand, self.model, self.issue_year))
