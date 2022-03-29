@@ -13,4 +13,4 @@ next(factorial_gen) -> 24
 def factorial(num=None):
     if num in factorial:
 
-        yield num!=  1 * 2 * 3 * ... * num
+        yield num!= 1 * 2 * 3 * ... * num
